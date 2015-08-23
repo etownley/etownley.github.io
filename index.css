@@ -3,6 +3,11 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	line-height: 1.6;
+	color: #F4E9CD;
+}
+
 #row-grouping { /* This is a container that helps me group elements */
 }
 
@@ -11,12 +16,12 @@ body {
 	margin: 0 auto;
 	width: 80%;
 	height: 80%;
-	padding-top: 40px;
+	padding-top: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-#welcome-message {
+#welcome-message > a {
     font-size: 40px;
     color: #F4E9CD;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
@@ -32,6 +37,14 @@ body {
 a {
 	text-transform: uppercase;
 	text-decoration: none;
+	font-weight: bold;
+	color: #F4E9CD;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 18px;
+}
+
+.heading {
+	text-transform: uppercase;
 	font-weight: bold;
 	color: #F4E9CD;
 	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
@@ -63,7 +76,7 @@ a {
 	width: 45%;
 	color: #F4E9CD;
 	font-size: 18px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
 	/*padding-left: 40px;
 	padding-right: 60px;*/
 	padding: 6%;
