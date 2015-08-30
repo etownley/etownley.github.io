@@ -68,6 +68,7 @@ a {
 
 #pubs > li > a {
 	text-transform: none;
+	line-height: 1.6;
 }
 
 .body-text-full {
