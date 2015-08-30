@@ -26,6 +26,10 @@ p > img {
 	padding-right: 40px;
 }
 
+#welcome-message {
+    padding-bottom: 10px;
+}
+
 #welcome-message > a {
     font-size: 40px;
     color: #326771;
@@ -34,8 +38,6 @@ p > img {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     padding-top: 80px;
-    /*display:inline-block;
-    padding-top: 70px;*/
 }
 
 a {
@@ -76,7 +78,7 @@ a {
 	font-size: 18px;
 	font-family: "Avenir",Helvetica,Arial,sans-serif;
 	font-weight: lighter;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 50px;
 	width: 65%;
 }
@@ -88,10 +90,18 @@ a {
 	padding-top: 10px;
 }
 
+#wordbox > a {
+	font-size: 22px;
+}
+
 #wordbox-left {
 	display: inline;
 	padding-right: 20px;
 	padding-top: 10px;
+}
+
+#wordbox-left > a {
+	font-size: 22px;
 }
 
 .body-text {
@@ -121,7 +131,7 @@ a {
 }
 
 #profile-photo > img {
-	width: 300px;
+	width: 100%;
 }
 
 #profile-photo {
