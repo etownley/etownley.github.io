@@ -8,6 +8,11 @@ p {
 	color: #326771;
 }
 
+p > img {
+	width: 100%;
+	height: auto;
+}
+
 #row-grouping { /* This is a container that helps me group elements */
 }
 
@@ -28,7 +33,6 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    padding-bottom: 20px;
     padding-top: 80px;
     /*display:inline-block;
     padding-top: 70px;*/
@@ -51,6 +55,21 @@ a {
 	font-size: 18px;
 }
 
+.heading > .date {
+	font-weight: normal;
+	display: inline;
+	padding-left: 20px;
+}
+
+.heading > .desc {
+	display: inline;
+	text-transform: none;
+}
+
+#pubs > li > a {
+	text-transform: none;
+}
+
 .body-text-full {
 	color: #326771;
 	font-size: 18px;
@@ -65,11 +84,13 @@ a {
 	display: inline;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 10px;
 }
 
 #wordbox-left {
 	display: inline;
 	padding-right: 20px;
+	padding-top: 10px;
 }
 
 .body-text {
