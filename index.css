@@ -17,6 +17,10 @@ p > a {
 	letter-spacing: 1px;
 }
 
+ul {
+	line-height: 1.6;
+}
+
 #row-grouping { /* This is a container that helps me group elements */
 }
 
@@ -33,23 +37,21 @@ p > a {
 	margin: 0 auto;
 	width: 80%;
 	height: 80%;
-	padding-top: 70px;
+	padding-top: 50px;
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-#welcome-message {
-    padding-bottom: 10px;
-}
 
 #welcome-message > a {
     font-size: 40px;
     color: #4C4C4C;
-    font-family: "Proxima Nova", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-family: "Palanquin", Helvetica, sans-serif;
     font-weight: 100pt;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -57,7 +59,7 @@ a {
 	text-decoration: none;
 	font-weight: 400;
 	color: #4C4C4C;
-	font-family: "Proxima Nova", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-family: "Palanquin", Helvetica, sans-serif;
 	font-size: 18px;
 }
 
@@ -65,8 +67,8 @@ a {
 	text-transform: uppercase;
 	font-weight: 200;
 	color: #1B2A41;
-	font-family: "Proxima Nova", Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-	font-size: 18px;
+	font-family: "Palanquin", Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 .heading > .date {
@@ -80,6 +82,12 @@ a {
 	text-transform: none;
 }
 
+.summary {
+	font-size: 18px;
+	font-family: "Palanquin", Helvetica, sans-serif;
+	line-height: 1.2;
+}
+
 #pubs > li > a {
 	text-transform: none;
 	line-height: 1.6;
@@ -87,9 +95,9 @@ a {
 
 .body-text-full {
 	color: #326771;
-	font-size: 18px;
-	font-family: "Avenir",Helvetica,Arial,sans-serif;
-	font-weight: lighter;
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica,sans-serif;
+	font-weight: 300;
 	padding-top: 10px;
 	padding-bottom: 50px;
 	width: 65%;
@@ -99,7 +107,6 @@ a {
 	display: inline;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 10px;
 	letter-spacing: 4px;
 	color: #456990;
 }
@@ -112,9 +119,7 @@ a {
 #wordbox-left {
 	display: inline;
 	padding-right: 20px;
-	padding-top: 10px;
 	letter-spacing: 4px;
-	font-weight: 500pt;
 	color: #456990;
 }
 
@@ -124,15 +129,35 @@ a {
 }
 
 #wordbox-select {
-	color: #AB3B3F;
+	color: #D8D8F6;
 	display: inline;
+	padding-right: 20px;
+	letter-spacing: 4px;
+	padding-left: 20px;
+}
+
+
+#wordbox-select > a {
+	font-size: 20px;
+}
+
+#wordbox-select-left {
+	color: #D8D8F6;
+	display: inline;
+	padding-right: 20px;
+	letter-spacing: 4px;
+
+}
+
+#wordbox-select-left > a {
+	font-size: 20px;
 }
 
 .body-text {
 	width: 45%;
 	color: #326771;
 	font-size: 18px;
-	font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+	font-family: "Palanquin", Helvetica, sans-serif;
 	/*padding-left: 40px;
 	padding-right: 60px;*/
 	padding: 6%;
