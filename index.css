@@ -136,11 +136,6 @@ a {
 	padding-left: 20px;
 }
 
-
-#wordbox-select > a {
-	font-size: 20px;
-}
-
 #wordbox-select-left {
 	color: #D8D8F6;
 	display: inline;
@@ -151,6 +146,31 @@ a {
 
 #wordbox-select-left > a {
 	font-size: 20px;
+}
+
+#wordbox-contact {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	letter-spacing: 4px;
+	color: #456990;
+}
+
+#wordbox-contact > a {
+	font-size: 16px;
+	color: #456990;
+}
+
+#wordbox-left-contact {
+	display: inline;
+	padding-right: 20px;
+	letter-spacing: 4px;
+	color: #456990;
+}
+
+#wordbox-left-contact > a {
+	font-size: 16px;
+	color: #456990;
 }
 
 .body-text {
