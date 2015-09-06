@@ -149,8 +149,6 @@ a {
 }
 
 #wordbox-contact {
-	display: inline;
-	padding-left: 20px;
 	padding-right: 20px;
 	letter-spacing: 4px;
 	color: #456990;
@@ -162,7 +160,6 @@ a {
 }
 
 #wordbox-left-contact {
-	display: inline;
 	padding-right: 20px;
 	letter-spacing: 4px;
 	color: #456990;
