@@ -10,43 +10,54 @@ p {
 	color: #4C4C4C;
 }
 
-p > img {
-	width: 100%;
-	height: auto;
-}
 
-p > a {
-	letter-spacing: 1px;
-}
-
-ul {
+#nav {
 	font-size: 18px;
     list-style-type: none;
     background-color: #606573;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     padding-right: 50px;
     overflow: auto;
     top: 0;
+
 }
 
-li {
-    display: inline-block;
+#nav li {
+	display: inline-block;
     float: center;
 
 }
 
-li a {
-    display: block;
+#nav li a {
+	display: block;
     color: #dbdfe0;
     text-align: center;
     padding: 18px 22px;
     text-decoration: none;
 }
 
-li a:hover {
-    color: #89d4c4;
+#nav li a:hover {
+	color: #89d4c4;
     text-decoration: underline;
+}
+
+ul {
+	
+}
+
+li {
+   
+
+}
+
+li a {
+    
+}
+
+li a:hover {
+    
 }
 
 
@@ -80,13 +91,13 @@ li a:hover {
 
 #welcome-message {
 	color: #dbdfe0;
-	font-size: 45px;
+	font-size: 30px;
 	font-family: "Baskerville", serif;
 	width: 80%;
 	text-align: center;
 	margin: auto;
 	display: block;
-	padding-top: 80px;
+	padding-top: 40px;
 
 }
 
@@ -124,19 +135,31 @@ li a:hover {
 }
 
 #writing {
-	/*display: inline-block;*/
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: left;
-	/*width: 50%;*/
 	padding: 10px;
 	flex-basis: 400px;
+	margin: 30px;
+}
+#writing2 {
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+	flex-basis: 800px;
+	margin: 5px 30px;
+	line-height: 2;
 }
 
-#writing > a {
+#writing2 > a {
 	font-weight: bolder;
 	text-transform: underline;
 	color: #000000;
+}
 
+#writing2 > ul > li > a {
+	font-weight: bolder;
+	text-transform: underline;
+	color: #000000;
 }
 
 #highlight1 {
